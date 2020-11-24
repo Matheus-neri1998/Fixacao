@@ -22,7 +22,10 @@ namespace Exercício_1
                     Console.WriteLine("Qual o seu ano de nascimento? ");
                     anodenascimento [i] = Console.ReadLine();
                 }
-
+                if (anoatual != anodenascimento)
+                {
+                    Console.WriteLine("Não deverá votar este ano");
+                }
                  
             }
               
